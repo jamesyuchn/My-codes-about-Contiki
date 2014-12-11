@@ -22,4 +22,4 @@ Steps to simulate:
 6. Add a malicious Sky mote: same as step #4.
 7. Drag motes to proper positions, some setting in ‘View’ toolbar  can be modified to see radio environment, data path and mote type, etc.
 8. Start simulation, you can see blue arrows representing packages.
-9. There will be few packets after first 30s, the setting up phase. You can use ‘ping6 aaaa::212:740?:?:?0?’ command in a new terminal to create data flows (? represents number on the mote, e.g., mote #1 has an ipv6 address aaaa::212:7401:1:101). You can also visit web servers in the motes by entering URL like http:///[aaaa::212:7402:2:202/]  (represents web server in mote #2) to create one-time data flow.
+9. There will be few packets after first 30s, the setting up phase. You can use ‘ping6 aaaa::212:740?:?:?0?’ command in a new terminal to create data flows (? represents number on the mote, e.g., mote #1 has an ipv6 address aaaa::212:7401:1:101). You can also visit web servers in the motes by entering URL like http://[aaaa::212:7402:2:202]/  (represents web server in mote #2) to create one-time data flow.
